@@ -25,7 +25,7 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей");
         System.out.println();
-        int max = 0;
+        int max = expenses[0];;
         for (int j = 0;j < expenses.length;j++) {
             if (expenses[j] > max){
                 max = expenses[j];
@@ -39,7 +39,8 @@ public class Main {
 //        for (int i = 0;i < expenses.length;i++) {
 //            sum = sum + expenses[i];
 //        }
-        double average = sum / 30;
+        double day = 30.0;
+        double average = sum / day;
         System.out.println("Средняя сумма трат за месяц составила " + average + " pублей");
 
 
