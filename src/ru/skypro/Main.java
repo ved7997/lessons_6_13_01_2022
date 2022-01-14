@@ -42,7 +42,14 @@ public class Main {
         double day = 30.0;
         double average = sum / day;
         System.out.println("Средняя сумма трат за месяц составила " + average + " pублей");
+        System.out.println();
 
+                //Задание №4
+
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = 10;i > 0; i --){
+            System.out.print(reverseFullName[i]);
+        }
 
     }
 
