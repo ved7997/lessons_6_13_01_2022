@@ -32,7 +32,15 @@ public class Main {
             }
         }
         System.out.println("Максималыная сумма трат за день составила " + max + " рублей");
+        System.out.println();
 
+                //Задание №3
+//        int  sum = 0;
+//        for (int i = 0;i < expenses.length;i++) {
+//            sum = sum + expenses[i];
+//        }
+        double average = sum / 30;
+        System.out.println("Средняя сумма трат за месяц составила " + average + " pублей");
 
 
     }
