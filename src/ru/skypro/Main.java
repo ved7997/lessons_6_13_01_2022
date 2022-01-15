@@ -25,7 +25,7 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей");
         System.out.println();
-        int max = expenses[0];;
+        int max = -1;;
         for (int j = 0;j < expenses.length;j++) {
             if (expenses[j] > max){
                 max = expenses[j];
@@ -47,7 +47,7 @@ public class Main {
                 //Задание №4
 
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = 10;i > 0; i --){
+        for (int i = reverseFullName.length - 1;i >= 0;i--){
             System.out.print(reverseFullName[i]);
         }
 
